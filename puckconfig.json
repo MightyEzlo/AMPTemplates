@@ -1,0 +1,73 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Server Settings",
+        "Description": "Name displayed in the server browser",
+        "Keywords": "server,name",
+        "FieldName": "name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "name",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "AMP Puck Server",
+        "Placeholder": "AMP Puck Server",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Server Settings",
+        "Description": "The maximum number of players on the server.",
+        "Keywords": "max,players",
+        "FieldName": "max_players",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "max_players",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "12",
+        "Placeholder": "12",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Password",
+        "Category": "Server Settings",
+        "Description": "The password used to join the server",
+        "Keywords": "server,password",
+        "FieldName": "password",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "password",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "ampPowered",
+        "Placeholder": "ampPowered",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "VoIP Enabled",
+        "Category": "Server Settings",
+        "Description": "Whether or not VoIP is enabled.",
+        "Keywords": "voip,enabled",
+        "FieldName": "voip",
+        "InputType": "checkbox",
+        "IsFlagArgument": true,
+        "ParamFieldName": "voip",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "true",
+        "Placeholder": "true",
+        "Suffix": "",
+        "Hidden": false,
+        "SkipIfEmpty": false,
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    }
+]
