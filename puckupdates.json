@@ -3,7 +3,7 @@
         "UpdateStageName": "Config File Download",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "2994021",
+        "UpdateSourceData": "2994020",
         "UpdateSourceArgs": "2994020",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
