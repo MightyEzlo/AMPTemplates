@@ -1,10 +1,20 @@
 [
     {
-        "UpdateStageName": "Config File Download",
+        "UpdateStageName": "Install Server",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "3481440",
-        "UpdateSourceArgs": "2994020",
+        "UpdateSourceArgs": "3481440",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "SetExe",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "Puck.x86_64",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
