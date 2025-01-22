@@ -51,13 +51,13 @@
         "EnumValues": {}
     },
     {
-        "DisplayName": "VoIP Enabled",
+        "DisplayName": "Voip Enabled",
         "Category": "Server Settings",
-        "Description": "Whether or not VoIP is enabled.",
-        "Keywords": "voip,enabled",
+        "Description": "Whether Voip is enabled. 'true' or 'false'.",
+        "Keywords": "server,voip",
         "FieldName": "voip",
-        "InputType": "checkbox",
-        "IsFlagArgument": true,
+        "InputType": "text",
+        "IsFlagArgument": false,
         "ParamFieldName": "voip",
         "IncludeInCommandLine": true,
         "DefaultValue": "true",
@@ -65,9 +65,6 @@
         "Suffix": "",
         "Hidden": false,
         "SkipIfEmpty": false,
-        "EnumValues": {
-            "true": "True",
-            "false": "False"
-        }
+        "EnumValues": {}
     }
 ]
