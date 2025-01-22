@@ -9,15 +9,5 @@
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "SetExe",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "Puck.x86_64",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
     }
 ]
