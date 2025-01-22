@@ -3,7 +3,7 @@
         "UpdateStageName": "Install Server",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "3481440",
+        "UpdateSourceData": "2994020",
         "UpdateSourceArgs": "3481440",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
